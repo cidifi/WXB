@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>寻找无双</title>
+        <meta charset="utf-8" />
+        <style>
+            header{
+                height:                         100px;
+                margin-bottom:                  2em;
+            }
+            header img{
+
+            }
+            .left-section div{
+                float:                          left;
+                line-height:                    100px;
+                text-align:                     center;
+                margin-left:                    2em;
+            }
+            .right-section div{
+                float:                          right;
+                margin-right:                   1.5em;
+                line-height:                    100px;
+                text-align:                     center;
+            }
+            .right-section div a:link{
+                text-decoration:                none;
+                color:                          black;
+            }
+            .main-body{
+                background-color:               #eee;
+                width:                          80%;
+                margin:                         0 10%;
+                padding:                        0 1em 1.5em;
+            }
+            .heading{
+                padding:                        1em 0;
+                text-align:                     center;
+            }
+            #portrait{
+                margin:                         0 17%;
+                padding-bottom:                 10px;
+                background-color:               white;
+                text-align:                     center;
+            }
+            #portrait img{
+                display:                        inline-block;
+                width:                           98%;
+            }
+            #portrait small{
+                display:                        block;
+                padding:                        10px;
+            }
+            .intro li{
+                font-family:                     "Microsoft Yahei";
+                font-size:                      1em;
+                line-height:                    1.5em;
+            }
+            footer{
+                text-align:                     center;
+                border-top:                     1px solid #eee;
+                margin:                         auto;
+                margin-top:                     2em;
+                padding:                        1.5em 0;
+                width:                          80%;
+            }
+        </style>
+        <script src="//cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#about").click(function(){
+                    alert("FCC Homework - Build a Tribute Page ");
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="left-section">
+                <div>
+                    <img src="image/header.jpg" alt="Wang Xiaobo" title="自由骑士" />
+                </div>
+                <div><b>寻 找 王 小 波</b></div>
+            </div>
+            <div class="right-section">
+                <div><a href="http://blog.sina.com.cn/liyinhe" target="_blank">李银河</a></div>
+                <div><a href="https://www.douban.com/search?cat=1001&q=%E7%8E%8B%E5%B0%8F%E6%B3%A2" target="_blank">作品</a></div>
+                <div id="about">关于</div>
+            </div>
+        </header>
+        <div class="main-body">
+            <div class="heading">
+                <h2>第一代程序员王小波</h2>
+                <h5>他和他的「 黄金时代 」</h5>
+            </div>
+            <div id="portrait" >
+                <img src="image/wangxiaobo.jpeg" alt="Wang Xiaobo"/>
+                <small>总是带点黑黄不健康脸色的王小波。</small>
+            </div>
+            <div class="intro">
+                <h4>关于他的一些事</h4>
+                <ul>
+                    <li>王小波在全家五个孩子中排行老四，在男孩中排行老二。他的许多小说中主人公取名“王二”，或许并非偶然。</li>
+                    <li>1968年(16岁)，在云南兵团劳动，并开始尝试写作。这段经历成为《黄金时代》的写作背景，也是处女作《地久天长》的灵感来源。</li>
+                    <li>1997年4月11日，王小波因心脏病突发辞世，享年45岁。 妻子李银河发表悼文《浪漫骑士·行吟诗人·自由思想者——悼小波》。</li>
+                    <li>他是中国最早的程序员之一，关于他的计算机水平，可以看看知乎：<a href="https://www.zhihu.com/question/20964366">王小波的计算机水平到底有多好？</a></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <small>Written and coded by Y.</small>
+        </footer>
+    </body>
+</html>
